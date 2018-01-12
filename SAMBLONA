@@ -1,0 +1,27 @@
+<?php
+  session_start();
+?>
+<!doctype html>
+<html>
+  <head>
+    <title>MTMovies</title>
+    <?php include_once 'hlavicka.php'?>
+  </head>
+  <body>
+    <div class="container">
+      <?php include_once 'navigace.php' ?>
+      <?php include_once 'vyhledavani.php' ?>
+
+      <!--OBSAH-->
+      <div class="card">
+        <h4 class="card-header bg-primary text-light"></h4>
+        <div class="card-body">
+          <p></p>
+        </div>
+      </div>
+
+      <?php include_once 'paticka.php'?>
+      <!-- Optional JavaScript -->
+    </div>
+  </body>
+</html>
